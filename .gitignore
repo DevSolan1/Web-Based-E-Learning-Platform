@@ -1,0 +1,18 @@
+# Uploaded videos
+uploads/videos/
+
+# Uploaded thumbnails
+uploads/thumbnails/
+
+# Uploaded CVs
+uploads/cv/
+
+# Duplicate uploads folder
+elearning/uploads/videos/
+elearning/uploads/thumbnails/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log

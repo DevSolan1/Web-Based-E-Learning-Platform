@@ -1,0 +1,7 @@
+Place the following images in this folder:
+- avatar.png (default user avatar, 80x80px)
+- course-default.jpg (default course thumbnail, 300x180px)
+
+You can use any placeholder images or download free ones from:
+- https://ui-avatars.com/api/?name=User&size=80 (for avatar)
+- https://via.placeholder.com/300x180 (for course thumbnail)

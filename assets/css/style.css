@@ -1,0 +1,247 @@
+/* E-Learning Platform Styles */
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --warning-color: #ffc107;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+    color: white;
+    padding: 80px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* Course Cards */
+.course-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.course-card .card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.course-card .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Rating Stars */
+.rating-stars {
+    color: #ffc107;
+}
+
+.rating-stars .bi-star-fill { color: #ffc107; }
+.rating-stars .bi-star { color: #ddd; }
+
+/* Dashboard Sidebar */
+.dashboard-sidebar {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.dashboard-sidebar .nav-link {
+    color: #333;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 2px 10px;
+}
+
+.dashboard-sidebar .nav-link:hover,
+.dashboard-sidebar .nav-link.active {
+    background: #e7f1ff;
+    color: #0d6efd;
+}
+
+.dashboard-sidebar .nav-link i {
+    width: 24px;
+}
+
+/* Stats Cards */
+.stat-card {
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.stat-card .stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+/* Video Player */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #000;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Playlist */
+.playlist-item {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.playlist-item:hover {
+    background: #f8f9fa;
+}
+
+.playlist-item.active {
+    background: #e7f1ff;
+    border-left: 3px solid #0d6efd;
+}
+
+.playlist-item.completed i.bi-check-circle-fill {
+    color: #198754;
+}
+
+/* Certificate */
+.certificate {
+    background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+    border: 3px solid #0d6efd;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.certificate::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+}
+
+.certificate-badge {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 40px;
+    color: white;
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+/* Buttons */
+.btn-primary {
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+/* Progress Bar */
+.progress {
+    height: 8px;
+    border-radius: 4px;
+}
+
+/* Tables */
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    
+    .dashboard-sidebar {
+        margin-bottom: 20px;
+    }
+}
+
+/* Admin Panel */
+.admin-header {
+    background: linear-gradient(135deg, #1e3a5f 0%, #0d2137 100%);
+}
+
+/* Teacher Panel */
+.teacher-header {
+    background: linear-gradient(135deg, #198754 0%, #146c43 100%);
+}
+
+/* Notifications */
+.notification-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.notification-item.unread {
+    background: #f0f7ff;
+}
+
+/* Messages */
+.message-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.message-item:hover {
+    background: #f8f9fa;
+}
+
+.message-item.unread {
+    background: #f0f7ff;
+    font-weight: 500;
+}
