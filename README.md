@@ -1,10 +1,10 @@
- #  E-Learning Web-Based System
+[6/17/2026 10:28 AM] Solan Abate: # 🎓 E-Learning Web-Based System
 
 A complete web-based E-Learning Platform developed using PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap. The system enables students to enroll in courses, teachers to create and manage learning content, and administrators to monitor and manage the entire platform.
 
 ---
 
-##  Project Overview
+## 📌 Project Overview
 
 The E-Learning Web-Based System is designed to provide an online learning environment where:
 
@@ -16,9 +16,9 @@ The platform supports video-based learning, course enrollment, progress tracking
 
 ---
 
-##  Features
+## ✨ Features
 
-###  Student Features
+### 👨‍🎓 Student Features
 - User Registration and Login
 - Browse Available Courses
 - Search Courses by Category
@@ -31,7 +31,7 @@ The platform supports video-based learning, course enrollment, progress tracking
 - Download Certificates
 - View Enrolled Courses
 
-###  Teacher Features
+### 👨‍🏫 Teacher Features
 - Teacher Dashboard
 - Create New Courses
 - Edit Existing Courses
@@ -42,7 +42,7 @@ The platform supports video-based learning, course enrollment, progress tracking
 - Notifications Management
 - Profile Management
 
-###  Admin Features
+### 👨‍💼 Admin Features
 - Admin Dashboard
 - Manage Users
 - Manage Courses
@@ -53,7 +53,7 @@ The platform supports video-based learning, course enrollment, progress tracking
 
 ---
 
-##  Technologies Used
+## 🛠️ Technologies Used
 
 ### Frontend
 - HTML5
@@ -123,7 +123,7 @@ elearning/
     └── img/
 ---
 
-##  Database Design
+## 🗄️ Database Design
 
 Main tables included:
 
@@ -140,7 +140,7 @@ Main tables included:
 
 ---
 
-##  Installation Guide
+## 🚀 Installation Guide
 
 ### Step 1: Clone the Repository
 
@@ -202,7 +202,7 @@ http://localhost/elearning
 
 ---
 
-##  User Roles
+## 🔐 User Roles
 
 ### Student
 - Enroll in courses
@@ -224,7 +224,10 @@ http://localhost/elearning
 ---
 
 
-##  Future Enhancements
+
+---
+
+## 🔮 Future Enhancements
 [6/17/2026 10:28 AM] Solan Abate: - Online Live Classes
 - Quiz and Examination Module
 - Assignment Submission
@@ -236,7 +239,7 @@ http://localhost/elearning
 
 ---
 
-##  Author
+## 👨‍💻 Author
 
 Solan Abate
 
@@ -244,7 +247,7 @@ Student Project – Web-Based E-Learning Platform
 
 ---
 
-##  License
+## 📄 License
 
 This project is developed for educational and learning purposes.
 
