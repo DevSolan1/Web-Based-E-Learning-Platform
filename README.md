@@ -1,10 +1,11 @@
-[6/17/2026 10:28 AM] Solan Abate: # 🎓 E-Learning Web-Based System
+
+#  E-Learning Web-Based System
 
 A complete web-based E-Learning Platform developed using PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap. The system enables students to enroll in courses, teachers to create and manage learning content, and administrators to monitor and manage the entire platform.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The E-Learning Web-Based System is designed to provide an online learning environment where:
 
@@ -16,7 +17,7 @@ The platform supports video-based learning, course enrollment, progress tracking
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 👨‍🎓 Student Features
 - User Registration and Login
@@ -53,7 +54,7 @@ The platform supports video-based learning, course enrollment, progress tracking
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend
 - HTML5
@@ -75,6 +76,7 @@ The platform supports video-based learning, course enrollment, progress tracking
 
 ## 📂 Project Structure
 
+```text
 elearning/
 │
 ├── admin/
@@ -121,9 +123,11 @@ elearning/
     ├── css/
     ├── js/
     └── img/
+```
+
 ---
 
-## 🗄️ Database Design
+##  Database Design
 
 Main tables included:
 
@@ -140,20 +144,27 @@ Main tables included:
 
 ---
 
-## 🚀 Installation Guide
+##  Installation Guide
 
 ### Step 1: Clone the Repository
 
-git clone https://github.com/yourusername/elearning-web-system.git
+```bash
+https://github.com/DevSolan1/Web-Based-E-Learning-Platform.git
+```
+
 ### Step 2: Move Project to Web Server
 
 Place the project folder inside:
 
+```text
 xampp/htdocs/
+```
+
 or
 
 ```text
 www/
+```
 
 depending on your local server setup.
 
@@ -161,15 +172,17 @@ depending on your local server setup.
 
 Open phpMyAdmin and create a database:
 
-sql
+```sql
 elearning_db
+```
 
 ### Step 4: Import Database
 
 Import:
 
-text
+```text
 database/schema.sql
+```
 
 into the created database.
 
@@ -177,16 +190,18 @@ into the created database.
 
 Open:
 
-php
+```php
 config/database.php
+```
 
 Update the database credentials:
 
-php
+```php
 $host = "localhost";
 $username = "root";
 $password = "";
 $database = "elearning_db";
+```
 
 ### Step 6: Run the Project
 
@@ -197,12 +212,13 @@ Start:
 
 Open browser:
 
-text
+```text
 http://localhost/elearning
+```
 
 ---
 
-## 🔐 User Roles
+##  User Roles
 
 ### Student
 - Enroll in courses
@@ -224,11 +240,11 @@ http://localhost/elearning
 ---
 
 
-
 ---
 
-## 🔮 Future Enhancements
-[6/17/2026 10:28 AM] Solan Abate: - Online Live Classes
+##  Future Enhancements
+
+- Online Live Classes
 - Quiz and Examination Module
 - Assignment Submission
 - Video Streaming Optimization
@@ -239,15 +255,15 @@ http://localhost/elearning
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-Solan Abate
+**Solan Abate**
 
 Student Project – Web-Based E-Learning Platform
 
 ---
 
-## 📄 License
+##  License
 
 This project is developed for educational and learning purposes.
 
